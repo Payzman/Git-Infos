@@ -28,4 +28,41 @@ c) Use 'ls', to see the subdirectories in the PWD.
 4. Initialize Local Directory as a Git Repository
 -------------------------------------------------
 
-a) Just put in 'git init' in the terminal
+Just put in 'git init' in the terminal
+
+5. Add Files in your local git repository
+-----------------------------------------
+
+'git add .' adds all files to the local repository.
+
+6. Commit Files
+---------------
+
+'git commit -m "Message" commits the files with the comment 'Message'
+
+7. Check name and email address
+-------------------------------
+
+If there was a comment about your name and email address being configure automatically you might want to set them explicitly. For that you need the following commands:
+
+git config --global user.name <name>, to set your name
+git config --global user.email <email>, to set your email
+git commit --amend --reset-author, to reset your name and email on the commit you just made.
+
+8. Add Github URL to Remote Repository
+--------------------------------------
+
+a) Copy the URL from the Github repository. It should look like this:
+    https://github.com/<name>/<repo>.git
+b) Set the new remote:
+    git remote add origin https://github.com/<name>/<repo>.git
+c) Verify Remote:
+    git remote -v
+   The console output should match your URL.
+
+9. Push Changes to Remote Repository
+------------------------------------
+
+git push origin master
+
+Pushes your changes to the remote repository
