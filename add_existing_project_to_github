@@ -1,0 +1,31 @@
+Adding an existing project to Github
+====================================
+(Linux)
+
+1. Create Repository on Github
+------------------------------
+
+a) Go on Github Website: https://www.github.com .
+b) Click on 'Sign in'.
+c) Put in Access Identification (Username + Password).
+d) Click on 'New Repository' at the 'Your Repositories' View.
+e) Think about a nice Repository Name and a Description.
+   Do NOT put in a .gitignore, a license, or a readme.
+   These files will be put in later.
+
+2. Open the Terminal
+--------------------
+
+Not much to say - Just open the terminal
+
+3. Change the current working directory to your local project
+-------------------------------------------------------------
+
+a) Use 'cd <argument> ' to Change Directories.
+b) Use pwd (Print Working Directory) to determine where you are
+c) Use 'ls', to see the subdirectories in the PWD.
+
+4. Initialize Local Directory as a Git Repository
+-------------------------------------------------
+
+a) Just put in 'git init' in the terminal
